@@ -1,8 +1,15 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [],
+  content: [
+    './page.html',
+  ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily :{ 
+        avenir: ["avenir","sans-serif"], 
+        roboto: ["roboto","sans"], 
+      } 
+    },
   },
   plugins: [],
 }

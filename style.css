@@ -1,0 +1,26 @@
+@tailwind base; 
+@tailwind components; 
+@tailwind utilities; 
+
+
+@font-face { 
+	font-family: "avenir"; 
+	src: url("./assets/AvenirLTStd-Roman.otf"); 
+} 
+@font-face { 
+	font-family: "roboto"; 
+	src: url("./assets/Roboto-Black.ttf"); 
+}
+
+
+
+#gridimage{
+   width: 350px;
+   height: 270px;
+}
+@media only screen and (min-width: 420px) {
+    #gridimage{
+        width: 500px;
+        height: 270px;
+     }
+  }
