@@ -6,8 +6,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily :{ 
-        avenir: ["avenir","sans-serif"], 
-        roboto: ["roboto","sans"], 
+        avenir: ['Avenir', sans-serif], 
+        roboto: ["Roboto", sans-serif], 
       } 
     },
   },
